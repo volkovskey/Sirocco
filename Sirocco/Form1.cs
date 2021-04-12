@@ -29,10 +29,9 @@ namespace Sirocco
 
         private void btnCalc_Click(object sender, EventArgs e)
         {
+            zeroUpdate();
             int f1 = Convert.ToInt32(freq1.Text);
             int f2 = Convert.ToInt32(freq2.Text);
-
-            zeroUpdate();
             CL2.Text = Math.Round(Convert.ToInt32(CL1.Text) * f2 / f1 + 0.5).ToString();
             RCDRD2.Text = Math.Round(Convert.ToInt32(RCDRD1.Text) * f2 / f1 + 0.5).ToString();
             RCDWR2.Text = Math.Round(Convert.ToInt32(RCDWR1.Text) * f2 / f1 + 0.5).ToString();
@@ -51,20 +50,31 @@ namespace Sirocco
 
         private void zeroUpdate()
         {
-            if (CL1.Text == "") CL1.Text = "0";
-            if (RCDRD1.Text == "") CL1.Text = "0";
-            if (RCDWR1.Text == "") CL1.Text = "0";
-            if (RP1.Text == "") CL1.Text = "0";
-            if (RAS1.Text == "") CL1.Text = "0";
-            if (RC1.Text == "") CL1.Text = "0";
-            if (RRDS1.Text == "") CL1.Text = "0";
-            if (RRDL1.Text == "") CL1.Text = "0";
-            if (FAW1.Text == "") CL1.Text = "0";
-            if (WTRS1.Text == "") CL1.Text = "0";
-            if (WTRL1.Text == "") CL1.Text = "0";
-            if (WR1.Text == "") CL1.Text = "0";
-            if (RFC1.Text == "") CL1.Text = "0";
-            if (RTP1.Text == "") CL1.Text = "0";
+            int timing;
+            if (!Int32.TryParse(CL1.Text, out timing)) CL1.Text = "0";
+            if (!Int32.TryParse(RCDRD1.Text, out timing)) RCDRD1.Text = "0";
+            if (!Int32.TryParse(RCDWR1.Text, out timing)) RCDWR1.Text = "0";
+            if (!Int32.TryParse(RP1.Text, out timing)) RP1.Text = "0";
+            if (!Int32.TryParse(RAS1.Text, out timing)) RAS1.Text = "0";
+            if (!Int32.TryParse(RC1.Text, out timing)) RC1.Text = "0";
+            if (!Int32.TryParse(RRDL1.Text, out timing)) RRDL1.Text = "0";
+            if (!Int32.TryParse(RRDS1.Text, out timing)) RRDS1.Text = "0";
+            if (!Int32.TryParse(FAW1.Text, out timing)) FAW1.Text = "0";
+            if (!Int32.TryParse(WTRS1.Text, out timing)) WTRS1.Text = "0";
+            if (!Int32.TryParse(WTRL1.Text, out timing)) WTRL1.Text = "0";
+            if (!Int32.TryParse(WR1.Text, out timing)) WR1.Text = "0";
+            if (!Int32.TryParse(RFC1.Text, out timing)) RFC1.Text = "0";
+            if (!Int32.TryParse(RTP1.Text, out timing)) RTP1.Text = "0";
+
+
+            if (!Int32.TryParse(freq1.Text, out timing)) freq1.Text = "3466";
+            if (!Int32.TryParse(freq2.Text, out timing)) freq2.Text = "3733";
+        }
+
+        private void btnTest_Click(object sender, EventArgs e)
+        {
+            String text = "";
+            MessageBox.Show(text, "test");
         }
     }
 }
