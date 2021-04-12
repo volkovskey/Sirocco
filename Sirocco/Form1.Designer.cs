@@ -95,7 +95,34 @@ namespace Sirocco
             this.CL2 = new System.Windows.Forms.TextBox();
             this.RCDRD2 = new System.Windows.Forms.TextBox();
             this.label30 = new System.Windows.Forms.Label();
-            this.btnTest = new System.Windows.Forms.Button();
+            this.CL1ns = new System.Windows.Forms.TextBox();
+            this.RCDRD1ns = new System.Windows.Forms.TextBox();
+            this.RCDWR1ns = new System.Windows.Forms.TextBox();
+            this.RTP1ns = new System.Windows.Forms.TextBox();
+            this.RFC1ns = new System.Windows.Forms.TextBox();
+            this.WR1ns = new System.Windows.Forms.TextBox();
+            this.WTRL1ns = new System.Windows.Forms.TextBox();
+            this.WTRS1ns = new System.Windows.Forms.TextBox();
+            this.FAW1ns = new System.Windows.Forms.TextBox();
+            this.RRDL1ns = new System.Windows.Forms.TextBox();
+            this.RRDS1ns = new System.Windows.Forms.TextBox();
+            this.RC1ns = new System.Windows.Forms.TextBox();
+            this.RAS1ns = new System.Windows.Forms.TextBox();
+            this.RP1ns = new System.Windows.Forms.TextBox();
+            this.RTP2ns = new System.Windows.Forms.TextBox();
+            this.RFC2ns = new System.Windows.Forms.TextBox();
+            this.WR2ns = new System.Windows.Forms.TextBox();
+            this.WTRL2ns = new System.Windows.Forms.TextBox();
+            this.WTRS2ns = new System.Windows.Forms.TextBox();
+            this.FAW2ns = new System.Windows.Forms.TextBox();
+            this.RRDL2ns = new System.Windows.Forms.TextBox();
+            this.RRDS2ns = new System.Windows.Forms.TextBox();
+            this.RC2ns = new System.Windows.Forms.TextBox();
+            this.RAS2ns = new System.Windows.Forms.TextBox();
+            this.RP2ns = new System.Windows.Forms.TextBox();
+            this.RCDWR2ns = new System.Windows.Forms.TextBox();
+            this.CL2ns = new System.Windows.Forms.TextBox();
+            this.RCDRD2ns = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -183,24 +210,38 @@ namespace Sirocco
             // 
             // RCDRD1
             // 
-            this.RCDRD1.Location = new System.Drawing.Point(132, 43);
+            this.RCDRD1.Location = new System.Drawing.Point(137, 43);
             this.RCDRD1.Name = "RCDRD1";
-            this.RCDRD1.Size = new System.Drawing.Size(37, 22);
+            this.RCDRD1.Size = new System.Drawing.Size(32, 22);
             this.RCDRD1.TabIndex = 3;
             this.RCDRD1.Text = "18";
             this.RCDRD1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // CL1
             // 
-            this.CL1.Location = new System.Drawing.Point(132, 15);
+            this.CL1.Location = new System.Drawing.Point(137, 15);
             this.CL1.Name = "CL1";
-            this.CL1.Size = new System.Drawing.Size(37, 22);
+            this.CL1.Size = new System.Drawing.Size(32, 22);
             this.CL1.TabIndex = 5;
             this.CL1.Text = "16";
             this.CL1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.RTP1ns);
+            this.groupBox2.Controls.Add(this.RFC1ns);
+            this.groupBox2.Controls.Add(this.WR1ns);
+            this.groupBox2.Controls.Add(this.WTRL1ns);
+            this.groupBox2.Controls.Add(this.WTRS1ns);
+            this.groupBox2.Controls.Add(this.FAW1ns);
+            this.groupBox2.Controls.Add(this.RRDL1ns);
+            this.groupBox2.Controls.Add(this.RRDS1ns);
+            this.groupBox2.Controls.Add(this.RC1ns);
+            this.groupBox2.Controls.Add(this.RAS1ns);
+            this.groupBox2.Controls.Add(this.RP1ns);
+            this.groupBox2.Controls.Add(this.RCDWR1ns);
+            this.groupBox2.Controls.Add(this.RCDRD1ns);
+            this.groupBox2.Controls.Add(this.CL1ns);
             this.groupBox2.Controls.Add(this.label16);
             this.groupBox2.Controls.Add(this.RTP1);
             this.groupBox2.Controls.Add(this.label15);
@@ -247,9 +288,9 @@ namespace Sirocco
             // 
             // RTP1
             // 
-            this.RTP1.Location = new System.Drawing.Point(132, 379);
+            this.RTP1.Location = new System.Drawing.Point(137, 379);
             this.RTP1.Name = "RTP1";
-            this.RTP1.Size = new System.Drawing.Size(37, 22);
+            this.RTP1.Size = new System.Drawing.Size(32, 22);
             this.RTP1.TabIndex = 29;
             this.RTP1.Text = "8";
             this.RTP1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -265,9 +306,9 @@ namespace Sirocco
             // 
             // RFC1
             // 
-            this.RFC1.Location = new System.Drawing.Point(132, 351);
+            this.RFC1.Location = new System.Drawing.Point(137, 351);
             this.RFC1.Name = "RFC1";
-            this.RFC1.Size = new System.Drawing.Size(37, 22);
+            this.RFC1.Size = new System.Drawing.Size(32, 22);
             this.RFC1.TabIndex = 27;
             this.RFC1.Text = "580";
             this.RFC1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -283,9 +324,9 @@ namespace Sirocco
             // 
             // WR1
             // 
-            this.WR1.Location = new System.Drawing.Point(132, 323);
+            this.WR1.Location = new System.Drawing.Point(137, 323);
             this.WR1.Name = "WR1";
-            this.WR1.Size = new System.Drawing.Size(37, 22);
+            this.WR1.Size = new System.Drawing.Size(32, 22);
             this.WR1.TabIndex = 25;
             this.WR1.Text = "16";
             this.WR1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -301,9 +342,9 @@ namespace Sirocco
             // 
             // WTRL1
             // 
-            this.WTRL1.Location = new System.Drawing.Point(132, 295);
+            this.WTRL1.Location = new System.Drawing.Point(137, 295);
             this.WTRL1.Name = "WTRL1";
-            this.WTRL1.Size = new System.Drawing.Size(37, 22);
+            this.WTRL1.Size = new System.Drawing.Size(32, 22);
             this.WTRL1.TabIndex = 23;
             this.WTRL1.Text = "8";
             this.WTRL1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -319,9 +360,9 @@ namespace Sirocco
             // 
             // WTRS1
             // 
-            this.WTRS1.Location = new System.Drawing.Point(132, 267);
+            this.WTRS1.Location = new System.Drawing.Point(137, 267);
             this.WTRS1.Name = "WTRS1";
-            this.WTRS1.Size = new System.Drawing.Size(37, 22);
+            this.WTRS1.Size = new System.Drawing.Size(32, 22);
             this.WTRS1.TabIndex = 21;
             this.WTRS1.Text = "5";
             this.WTRS1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -337,9 +378,9 @@ namespace Sirocco
             // 
             // FAW1
             // 
-            this.FAW1.Location = new System.Drawing.Point(132, 239);
+            this.FAW1.Location = new System.Drawing.Point(137, 239);
             this.FAW1.Name = "FAW1";
-            this.FAW1.Size = new System.Drawing.Size(37, 22);
+            this.FAW1.Size = new System.Drawing.Size(32, 22);
             this.FAW1.TabIndex = 19;
             this.FAW1.Text = "16";
             this.FAW1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -355,9 +396,9 @@ namespace Sirocco
             // 
             // RRDL1
             // 
-            this.RRDL1.Location = new System.Drawing.Point(132, 211);
+            this.RRDL1.Location = new System.Drawing.Point(137, 211);
             this.RRDL1.Name = "RRDL1";
-            this.RRDL1.Size = new System.Drawing.Size(37, 22);
+            this.RRDL1.Size = new System.Drawing.Size(32, 22);
             this.RRDL1.TabIndex = 17;
             this.RRDL1.Text = "4";
             this.RRDL1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -373,9 +414,9 @@ namespace Sirocco
             // 
             // RRDS1
             // 
-            this.RRDS1.Location = new System.Drawing.Point(132, 183);
+            this.RRDS1.Location = new System.Drawing.Point(137, 183);
             this.RRDS1.Name = "RRDS1";
-            this.RRDS1.Size = new System.Drawing.Size(37, 22);
+            this.RRDS1.Size = new System.Drawing.Size(32, 22);
             this.RRDS1.TabIndex = 15;
             this.RRDS1.Text = "4";
             this.RRDS1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -391,9 +432,9 @@ namespace Sirocco
             // 
             // RC1
             // 
-            this.RC1.Location = new System.Drawing.Point(132, 155);
+            this.RC1.Location = new System.Drawing.Point(137, 155);
             this.RC1.Name = "RC1";
-            this.RC1.Size = new System.Drawing.Size(37, 22);
+            this.RC1.Size = new System.Drawing.Size(32, 22);
             this.RC1.TabIndex = 13;
             this.RC1.Text = "48";
             this.RC1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -409,9 +450,9 @@ namespace Sirocco
             // 
             // RAS1
             // 
-            this.RAS1.Location = new System.Drawing.Point(132, 127);
+            this.RAS1.Location = new System.Drawing.Point(137, 127);
             this.RAS1.Name = "RAS1";
-            this.RAS1.Size = new System.Drawing.Size(37, 22);
+            this.RAS1.Size = new System.Drawing.Size(32, 22);
             this.RAS1.TabIndex = 11;
             this.RAS1.Text = "36";
             this.RAS1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -427,9 +468,9 @@ namespace Sirocco
             // 
             // RP1
             // 
-            this.RP1.Location = new System.Drawing.Point(132, 99);
+            this.RP1.Location = new System.Drawing.Point(137, 99);
             this.RP1.Name = "RP1";
-            this.RP1.Size = new System.Drawing.Size(37, 22);
+            this.RP1.Size = new System.Drawing.Size(32, 22);
             this.RP1.TabIndex = 9;
             this.RP1.Text = "16";
             this.RP1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -445,9 +486,9 @@ namespace Sirocco
             // 
             // RCDWR1
             // 
-            this.RCDWR1.Location = new System.Drawing.Point(132, 71);
+            this.RCDWR1.Location = new System.Drawing.Point(137, 71);
             this.RCDWR1.Name = "RCDWR1";
-            this.RCDWR1.Size = new System.Drawing.Size(37, 22);
+            this.RCDWR1.Size = new System.Drawing.Size(32, 22);
             this.RCDWR1.TabIndex = 7;
             this.RCDWR1.Text = "16";
             this.RCDWR1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -463,6 +504,20 @@ namespace Sirocco
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.RTP2ns);
+            this.groupBox3.Controls.Add(this.RFC2ns);
+            this.groupBox3.Controls.Add(this.WR2ns);
+            this.groupBox3.Controls.Add(this.WTRL2ns);
+            this.groupBox3.Controls.Add(this.WTRS2ns);
+            this.groupBox3.Controls.Add(this.FAW2ns);
+            this.groupBox3.Controls.Add(this.RRDL2ns);
+            this.groupBox3.Controls.Add(this.RRDS2ns);
+            this.groupBox3.Controls.Add(this.RC2ns);
+            this.groupBox3.Controls.Add(this.RAS2ns);
+            this.groupBox3.Controls.Add(this.RP2ns);
+            this.groupBox3.Controls.Add(this.RCDWR2ns);
+            this.groupBox3.Controls.Add(this.CL2ns);
+            this.groupBox3.Controls.Add(this.RCDRD2ns);
             this.groupBox3.Controls.Add(this.label17);
             this.groupBox3.Controls.Add(this.RTP2);
             this.groupBox3.Controls.Add(this.label18);
@@ -509,9 +564,10 @@ namespace Sirocco
             // 
             // RTP2
             // 
-            this.RTP2.Location = new System.Drawing.Point(132, 379);
+            this.RTP2.Enabled = false;
+            this.RTP2.Location = new System.Drawing.Point(137, 379);
             this.RTP2.Name = "RTP2";
-            this.RTP2.Size = new System.Drawing.Size(37, 22);
+            this.RTP2.Size = new System.Drawing.Size(32, 22);
             this.RTP2.TabIndex = 29;
             this.RTP2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -526,9 +582,10 @@ namespace Sirocco
             // 
             // RFC2
             // 
-            this.RFC2.Location = new System.Drawing.Point(132, 351);
+            this.RFC2.Enabled = false;
+            this.RFC2.Location = new System.Drawing.Point(137, 351);
             this.RFC2.Name = "RFC2";
-            this.RFC2.Size = new System.Drawing.Size(37, 22);
+            this.RFC2.Size = new System.Drawing.Size(32, 22);
             this.RFC2.TabIndex = 27;
             this.RFC2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -543,9 +600,10 @@ namespace Sirocco
             // 
             // WR2
             // 
-            this.WR2.Location = new System.Drawing.Point(132, 323);
+            this.WR2.Enabled = false;
+            this.WR2.Location = new System.Drawing.Point(137, 323);
             this.WR2.Name = "WR2";
-            this.WR2.Size = new System.Drawing.Size(37, 22);
+            this.WR2.Size = new System.Drawing.Size(32, 22);
             this.WR2.TabIndex = 25;
             this.WR2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -560,9 +618,10 @@ namespace Sirocco
             // 
             // WTRL2
             // 
-            this.WTRL2.Location = new System.Drawing.Point(132, 295);
+            this.WTRL2.Enabled = false;
+            this.WTRL2.Location = new System.Drawing.Point(137, 295);
             this.WTRL2.Name = "WTRL2";
-            this.WTRL2.Size = new System.Drawing.Size(37, 22);
+            this.WTRL2.Size = new System.Drawing.Size(32, 22);
             this.WTRL2.TabIndex = 23;
             this.WTRL2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -577,9 +636,10 @@ namespace Sirocco
             // 
             // WTRS2
             // 
-            this.WTRS2.Location = new System.Drawing.Point(132, 267);
+            this.WTRS2.Enabled = false;
+            this.WTRS2.Location = new System.Drawing.Point(137, 267);
             this.WTRS2.Name = "WTRS2";
-            this.WTRS2.Size = new System.Drawing.Size(37, 22);
+            this.WTRS2.Size = new System.Drawing.Size(32, 22);
             this.WTRS2.TabIndex = 21;
             this.WTRS2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -594,9 +654,10 @@ namespace Sirocco
             // 
             // FAW2
             // 
-            this.FAW2.Location = new System.Drawing.Point(132, 239);
+            this.FAW2.Enabled = false;
+            this.FAW2.Location = new System.Drawing.Point(137, 239);
             this.FAW2.Name = "FAW2";
-            this.FAW2.Size = new System.Drawing.Size(37, 22);
+            this.FAW2.Size = new System.Drawing.Size(32, 22);
             this.FAW2.TabIndex = 19;
             this.FAW2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -611,9 +672,10 @@ namespace Sirocco
             // 
             // RRDL2
             // 
-            this.RRDL2.Location = new System.Drawing.Point(132, 211);
+            this.RRDL2.Enabled = false;
+            this.RRDL2.Location = new System.Drawing.Point(137, 211);
             this.RRDL2.Name = "RRDL2";
-            this.RRDL2.Size = new System.Drawing.Size(37, 22);
+            this.RRDL2.Size = new System.Drawing.Size(32, 22);
             this.RRDL2.TabIndex = 17;
             this.RRDL2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -628,9 +690,10 @@ namespace Sirocco
             // 
             // RRDS2
             // 
-            this.RRDS2.Location = new System.Drawing.Point(132, 183);
+            this.RRDS2.Enabled = false;
+            this.RRDS2.Location = new System.Drawing.Point(137, 183);
             this.RRDS2.Name = "RRDS2";
-            this.RRDS2.Size = new System.Drawing.Size(37, 22);
+            this.RRDS2.Size = new System.Drawing.Size(32, 22);
             this.RRDS2.TabIndex = 15;
             this.RRDS2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -645,9 +708,10 @@ namespace Sirocco
             // 
             // RC2
             // 
-            this.RC2.Location = new System.Drawing.Point(132, 155);
+            this.RC2.Enabled = false;
+            this.RC2.Location = new System.Drawing.Point(137, 155);
             this.RC2.Name = "RC2";
-            this.RC2.Size = new System.Drawing.Size(37, 22);
+            this.RC2.Size = new System.Drawing.Size(32, 22);
             this.RC2.TabIndex = 13;
             this.RC2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -662,9 +726,10 @@ namespace Sirocco
             // 
             // RAS2
             // 
-            this.RAS2.Location = new System.Drawing.Point(132, 127);
+            this.RAS2.Enabled = false;
+            this.RAS2.Location = new System.Drawing.Point(137, 127);
             this.RAS2.Name = "RAS2";
-            this.RAS2.Size = new System.Drawing.Size(37, 22);
+            this.RAS2.Size = new System.Drawing.Size(32, 22);
             this.RAS2.TabIndex = 11;
             this.RAS2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -679,9 +744,10 @@ namespace Sirocco
             // 
             // RP2
             // 
-            this.RP2.Location = new System.Drawing.Point(132, 99);
+            this.RP2.Enabled = false;
+            this.RP2.Location = new System.Drawing.Point(137, 99);
             this.RP2.Name = "RP2";
-            this.RP2.Size = new System.Drawing.Size(37, 22);
+            this.RP2.Size = new System.Drawing.Size(32, 22);
             this.RP2.TabIndex = 9;
             this.RP2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -696,9 +762,10 @@ namespace Sirocco
             // 
             // RCDWR2
             // 
-            this.RCDWR2.Location = new System.Drawing.Point(132, 71);
+            this.RCDWR2.Enabled = false;
+            this.RCDWR2.Location = new System.Drawing.Point(137, 71);
             this.RCDWR2.Name = "RCDWR2";
-            this.RCDWR2.Size = new System.Drawing.Size(37, 22);
+            this.RCDWR2.Size = new System.Drawing.Size(32, 22);
             this.RCDWR2.TabIndex = 7;
             this.RCDWR2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -713,17 +780,19 @@ namespace Sirocco
             // 
             // CL2
             // 
-            this.CL2.Location = new System.Drawing.Point(132, 15);
+            this.CL2.Enabled = false;
+            this.CL2.Location = new System.Drawing.Point(137, 15);
             this.CL2.Name = "CL2";
-            this.CL2.Size = new System.Drawing.Size(37, 22);
+            this.CL2.Size = new System.Drawing.Size(32, 22);
             this.CL2.TabIndex = 5;
             this.CL2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // RCDRD2
             // 
-            this.RCDRD2.Location = new System.Drawing.Point(132, 43);
+            this.RCDRD2.Enabled = false;
+            this.RCDRD2.Location = new System.Drawing.Point(137, 43);
             this.RCDRD2.Name = "RCDRD2";
-            this.RCDRD2.Size = new System.Drawing.Size(37, 22);
+            this.RCDRD2.Size = new System.Drawing.Size(32, 22);
             this.RCDRD2.TabIndex = 3;
             this.RCDRD2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -736,23 +805,263 @@ namespace Sirocco
             this.label30.TabIndex = 2;
             this.label30.Text = "CL";
             // 
-            // btnTest
+            // CL1ns
             // 
-            this.btnTest.Location = new System.Drawing.Point(145, 509);
-            this.btnTest.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.btnTest.Name = "btnTest";
-            this.btnTest.Size = new System.Drawing.Size(100, 40);
-            this.btnTest.TabIndex = 32;
-            this.btnTest.Text = "Test";
-            this.btnTest.UseVisualStyleBackColor = true;
-            this.btnTest.Click += new System.EventHandler(this.btnTest_Click);
+            this.CL1ns.Enabled = false;
+            this.CL1ns.Location = new System.Drawing.Point(71, 15);
+            this.CL1ns.Name = "CL1ns";
+            this.CL1ns.Size = new System.Drawing.Size(62, 22);
+            this.CL1ns.TabIndex = 31;
+            this.CL1ns.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // RCDRD1ns
+            // 
+            this.RCDRD1ns.Enabled = false;
+            this.RCDRD1ns.Location = new System.Drawing.Point(71, 43);
+            this.RCDRD1ns.Name = "RCDRD1ns";
+            this.RCDRD1ns.Size = new System.Drawing.Size(62, 22);
+            this.RCDRD1ns.TabIndex = 32;
+            this.RCDRD1ns.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // RCDWR1ns
+            // 
+            this.RCDWR1ns.Enabled = false;
+            this.RCDWR1ns.Location = new System.Drawing.Point(71, 71);
+            this.RCDWR1ns.Name = "RCDWR1ns";
+            this.RCDWR1ns.Size = new System.Drawing.Size(62, 22);
+            this.RCDWR1ns.TabIndex = 33;
+            this.RCDWR1ns.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // RTP1ns
+            // 
+            this.RTP1ns.Enabled = false;
+            this.RTP1ns.Location = new System.Drawing.Point(71, 379);
+            this.RTP1ns.Name = "RTP1ns";
+            this.RTP1ns.Size = new System.Drawing.Size(62, 22);
+            this.RTP1ns.TabIndex = 44;
+            this.RTP1ns.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // RFC1ns
+            // 
+            this.RFC1ns.Enabled = false;
+            this.RFC1ns.Location = new System.Drawing.Point(71, 351);
+            this.RFC1ns.Name = "RFC1ns";
+            this.RFC1ns.Size = new System.Drawing.Size(62, 22);
+            this.RFC1ns.TabIndex = 43;
+            this.RFC1ns.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // WR1ns
+            // 
+            this.WR1ns.Enabled = false;
+            this.WR1ns.Location = new System.Drawing.Point(71, 323);
+            this.WR1ns.Name = "WR1ns";
+            this.WR1ns.Size = new System.Drawing.Size(62, 22);
+            this.WR1ns.TabIndex = 42;
+            this.WR1ns.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // WTRL1ns
+            // 
+            this.WTRL1ns.Enabled = false;
+            this.WTRL1ns.Location = new System.Drawing.Point(71, 295);
+            this.WTRL1ns.Name = "WTRL1ns";
+            this.WTRL1ns.Size = new System.Drawing.Size(62, 22);
+            this.WTRL1ns.TabIndex = 41;
+            this.WTRL1ns.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // WTRS1ns
+            // 
+            this.WTRS1ns.Enabled = false;
+            this.WTRS1ns.Location = new System.Drawing.Point(71, 267);
+            this.WTRS1ns.Name = "WTRS1ns";
+            this.WTRS1ns.Size = new System.Drawing.Size(62, 22);
+            this.WTRS1ns.TabIndex = 40;
+            this.WTRS1ns.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // FAW1ns
+            // 
+            this.FAW1ns.Enabled = false;
+            this.FAW1ns.Location = new System.Drawing.Point(71, 239);
+            this.FAW1ns.Name = "FAW1ns";
+            this.FAW1ns.Size = new System.Drawing.Size(62, 22);
+            this.FAW1ns.TabIndex = 39;
+            this.FAW1ns.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // RRDL1ns
+            // 
+            this.RRDL1ns.Enabled = false;
+            this.RRDL1ns.Location = new System.Drawing.Point(71, 211);
+            this.RRDL1ns.Name = "RRDL1ns";
+            this.RRDL1ns.Size = new System.Drawing.Size(62, 22);
+            this.RRDL1ns.TabIndex = 38;
+            this.RRDL1ns.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // RRDS1ns
+            // 
+            this.RRDS1ns.Enabled = false;
+            this.RRDS1ns.Location = new System.Drawing.Point(71, 183);
+            this.RRDS1ns.Name = "RRDS1ns";
+            this.RRDS1ns.Size = new System.Drawing.Size(62, 22);
+            this.RRDS1ns.TabIndex = 37;
+            this.RRDS1ns.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // RC1ns
+            // 
+            this.RC1ns.Enabled = false;
+            this.RC1ns.Location = new System.Drawing.Point(71, 155);
+            this.RC1ns.Name = "RC1ns";
+            this.RC1ns.Size = new System.Drawing.Size(62, 22);
+            this.RC1ns.TabIndex = 36;
+            this.RC1ns.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // RAS1ns
+            // 
+            this.RAS1ns.Enabled = false;
+            this.RAS1ns.Location = new System.Drawing.Point(71, 127);
+            this.RAS1ns.Name = "RAS1ns";
+            this.RAS1ns.Size = new System.Drawing.Size(62, 22);
+            this.RAS1ns.TabIndex = 35;
+            this.RAS1ns.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // RP1ns
+            // 
+            this.RP1ns.Enabled = false;
+            this.RP1ns.Location = new System.Drawing.Point(71, 99);
+            this.RP1ns.Name = "RP1ns";
+            this.RP1ns.Size = new System.Drawing.Size(62, 22);
+            this.RP1ns.TabIndex = 34;
+            this.RP1ns.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // RTP2ns
+            // 
+            this.RTP2ns.Enabled = false;
+            this.RTP2ns.Location = new System.Drawing.Point(70, 379);
+            this.RTP2ns.Name = "RTP2ns";
+            this.RTP2ns.Size = new System.Drawing.Size(62, 22);
+            this.RTP2ns.TabIndex = 44;
+            this.RTP2ns.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // RFC2ns
+            // 
+            this.RFC2ns.Enabled = false;
+            this.RFC2ns.Location = new System.Drawing.Point(70, 351);
+            this.RFC2ns.Name = "RFC2ns";
+            this.RFC2ns.Size = new System.Drawing.Size(62, 22);
+            this.RFC2ns.TabIndex = 43;
+            this.RFC2ns.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // WR2ns
+            // 
+            this.WR2ns.Enabled = false;
+            this.WR2ns.Location = new System.Drawing.Point(70, 323);
+            this.WR2ns.Name = "WR2ns";
+            this.WR2ns.Size = new System.Drawing.Size(62, 22);
+            this.WR2ns.TabIndex = 42;
+            this.WR2ns.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // WTRL2ns
+            // 
+            this.WTRL2ns.Enabled = false;
+            this.WTRL2ns.Location = new System.Drawing.Point(70, 295);
+            this.WTRL2ns.Name = "WTRL2ns";
+            this.WTRL2ns.Size = new System.Drawing.Size(62, 22);
+            this.WTRL2ns.TabIndex = 41;
+            this.WTRL2ns.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // WTRS2ns
+            // 
+            this.WTRS2ns.Enabled = false;
+            this.WTRS2ns.Location = new System.Drawing.Point(70, 267);
+            this.WTRS2ns.Name = "WTRS2ns";
+            this.WTRS2ns.Size = new System.Drawing.Size(62, 22);
+            this.WTRS2ns.TabIndex = 40;
+            this.WTRS2ns.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // FAW2ns
+            // 
+            this.FAW2ns.Enabled = false;
+            this.FAW2ns.Location = new System.Drawing.Point(70, 239);
+            this.FAW2ns.Name = "FAW2ns";
+            this.FAW2ns.Size = new System.Drawing.Size(62, 22);
+            this.FAW2ns.TabIndex = 39;
+            this.FAW2ns.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // RRDL2ns
+            // 
+            this.RRDL2ns.Enabled = false;
+            this.RRDL2ns.Location = new System.Drawing.Point(70, 211);
+            this.RRDL2ns.Name = "RRDL2ns";
+            this.RRDL2ns.Size = new System.Drawing.Size(62, 22);
+            this.RRDL2ns.TabIndex = 38;
+            this.RRDL2ns.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // RRDS2ns
+            // 
+            this.RRDS2ns.Enabled = false;
+            this.RRDS2ns.Location = new System.Drawing.Point(70, 183);
+            this.RRDS2ns.Name = "RRDS2ns";
+            this.RRDS2ns.Size = new System.Drawing.Size(62, 22);
+            this.RRDS2ns.TabIndex = 37;
+            this.RRDS2ns.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // RC2ns
+            // 
+            this.RC2ns.Enabled = false;
+            this.RC2ns.Location = new System.Drawing.Point(70, 155);
+            this.RC2ns.Name = "RC2ns";
+            this.RC2ns.Size = new System.Drawing.Size(62, 22);
+            this.RC2ns.TabIndex = 36;
+            this.RC2ns.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // RAS2ns
+            // 
+            this.RAS2ns.Enabled = false;
+            this.RAS2ns.Location = new System.Drawing.Point(70, 127);
+            this.RAS2ns.Name = "RAS2ns";
+            this.RAS2ns.Size = new System.Drawing.Size(62, 22);
+            this.RAS2ns.TabIndex = 35;
+            this.RAS2ns.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // RP2ns
+            // 
+            this.RP2ns.Enabled = false;
+            this.RP2ns.Location = new System.Drawing.Point(70, 99);
+            this.RP2ns.Name = "RP2ns";
+            this.RP2ns.Size = new System.Drawing.Size(62, 22);
+            this.RP2ns.TabIndex = 34;
+            this.RP2ns.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // RCDWR2ns
+            // 
+            this.RCDWR2ns.Enabled = false;
+            this.RCDWR2ns.Location = new System.Drawing.Point(70, 71);
+            this.RCDWR2ns.Name = "RCDWR2ns";
+            this.RCDWR2ns.Size = new System.Drawing.Size(62, 22);
+            this.RCDWR2ns.TabIndex = 33;
+            this.RCDWR2ns.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // CL2ns
+            // 
+            this.CL2ns.Enabled = false;
+            this.CL2ns.Location = new System.Drawing.Point(70, 15);
+            this.CL2ns.Name = "CL2ns";
+            this.CL2ns.Size = new System.Drawing.Size(62, 22);
+            this.CL2ns.TabIndex = 32;
+            this.CL2ns.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // RCDRD2ns
+            // 
+            this.RCDRD2ns.Enabled = false;
+            this.RCDRD2ns.Location = new System.Drawing.Point(70, 43);
+            this.RCDRD2ns.Name = "RCDRD2ns";
+            this.RCDRD2ns.Size = new System.Drawing.Size(62, 22);
+            this.RCDRD2ns.TabIndex = 31;
+            this.RCDRD2ns.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(384, 561);
-            this.Controls.Add(this.btnTest);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -842,7 +1151,34 @@ namespace Sirocco
         private System.Windows.Forms.TextBox CL2;
         private System.Windows.Forms.TextBox RCDRD2;
         private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Button btnTest;
+        private System.Windows.Forms.TextBox RTP1ns;
+        private System.Windows.Forms.TextBox RFC1ns;
+        private System.Windows.Forms.TextBox WR1ns;
+        private System.Windows.Forms.TextBox WTRL1ns;
+        private System.Windows.Forms.TextBox WTRS1ns;
+        private System.Windows.Forms.TextBox FAW1ns;
+        private System.Windows.Forms.TextBox RRDL1ns;
+        private System.Windows.Forms.TextBox RRDS1ns;
+        private System.Windows.Forms.TextBox RC1ns;
+        private System.Windows.Forms.TextBox RAS1ns;
+        private System.Windows.Forms.TextBox RP1ns;
+        private System.Windows.Forms.TextBox RCDWR1ns;
+        private System.Windows.Forms.TextBox RCDRD1ns;
+        private System.Windows.Forms.TextBox CL1ns;
+        private System.Windows.Forms.TextBox RTP2ns;
+        private System.Windows.Forms.TextBox RFC2ns;
+        private System.Windows.Forms.TextBox WR2ns;
+        private System.Windows.Forms.TextBox WTRL2ns;
+        private System.Windows.Forms.TextBox WTRS2ns;
+        private System.Windows.Forms.TextBox FAW2ns;
+        private System.Windows.Forms.TextBox RRDL2ns;
+        private System.Windows.Forms.TextBox RRDS2ns;
+        private System.Windows.Forms.TextBox RC2ns;
+        private System.Windows.Forms.TextBox RAS2ns;
+        private System.Windows.Forms.TextBox RP2ns;
+        private System.Windows.Forms.TextBox RCDWR2ns;
+        private System.Windows.Forms.TextBox CL2ns;
+        private System.Windows.Forms.TextBox RCDRD2ns;
     }
 }
 
