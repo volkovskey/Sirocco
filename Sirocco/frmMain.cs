@@ -224,6 +224,7 @@ namespace Sirocco
 
         private void btnReverse_Click(object sender, EventArgs e)
         {
+            btnCalc_Click(sender, e);
             string temp = "";
 
             temp = freq1.Text; freq1.Text = freq2.Text; freq2.Text = temp;
